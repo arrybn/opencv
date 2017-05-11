@@ -549,6 +549,7 @@ struct CV_EXPORTS MatSize
     operator const int*() const;
     bool operator == (const MatSize& sz) const;
     bool operator != (const MatSize& sz) const;
+    int dims() const;
 
     int* p;
 };
